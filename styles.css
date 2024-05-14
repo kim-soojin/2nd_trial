@@ -1,0 +1,64 @@
+/* CSS 스타일 추천 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.quote-container {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.quote-author {
+  font-style: italic;
+  color: #555;
+}
+
+.errorMessage {
+  color: #ff0000;
+  text-align: center;
+}
+
+.quoteBtn,
+.quoteNewBtn {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quoteBtn:hover,
+.quoteNewBtn:hover {
+  background-color: #0056b3;
+}
